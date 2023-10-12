@@ -39,21 +39,24 @@ h1 {
   -webkit-text-fill-color: transparent;
   width: fit-content;
 }
-
-.search {
-  width: 71%;
-  margin: 4rem 0 2rem;
-
-  display: flex;
-  align-items: center;
+.app{
   justify-content: center;
+  align-items: center;
+}
+.search {
 
-  padding: 1.5rem 1.75rem;
-  border-radius: 3rem;
-  background: #1f2123;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
- /* box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-*/}
+  justify-items: center;
+    /* width: 71%; */
+    margin: auto;
+    margin: 7rem 12rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 16.75rem;
+    border-radius: 3rem;
+    background: #1f2123;
+    -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+}
 
 .search input {
   flex: 1;
