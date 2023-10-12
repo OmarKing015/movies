@@ -3,27 +3,7 @@ import React, { useEffect, useState } from "react";
 import './app.css';
 import MovieCard from "./MovieCard";
 import SearchIcon from './seaech.svg';
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyB7WMLtFiwYGh0KQgY7JA1NQcaNX32w3rg",
-  authDomain: "movieplace-d0fdd.firebaseapp.com",
-  projectId: "movieplace-d0fdd",
-  storageBucket: "movieplace-d0fdd.appspot.com",
-  messagingSenderId: "993429309001",
-  appId: "1:993429309001:web:1033fddcdae5e124c06198",
-  measurementId: "G-LZBV56M3TV"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 // MY_API_KEY = 14cd875a
 const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=14cd875a';
 
